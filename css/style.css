@@ -22,13 +22,31 @@ nav {
   background-color: #FFA492;
   color:white;
   text-align: right;
-  padding: 10px 115px 10px 0px;
+  padding: 10px 115px 10px 80px;
   font-size: 15px;
   font-family: cursive;
   letter-spacing: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+nav > i {
+  font-size: 30px;
+  color: white;
+  margin: 0px 10px 0px 25px;
+}
+i:hover {
+  color: black;
+  cursor: pointer;
 
 
 }
+nav > span {
+  padding-left: 360px;
+}
+
 header {
   width: 75%;
   margin: 0 auto;
@@ -85,10 +103,6 @@ header {
   display: flex;
   align-content: center;
   justify-content: center;
-
-
-
-
 }
 .middle > img {
   background-size: cover;
@@ -96,5 +110,15 @@ header {
   width: 60%;
   height: 60%;
 
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  height: 100px;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 auto;
 
 }
